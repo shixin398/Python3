@@ -30,7 +30,8 @@ def url_open(url):
 
 def find_page_index(html):
     # print(html)
-    temp_str = re.search(r'class="current-comment-page".*?(</span>)', html)
+    # temp_str = re.search(r'class="current-comment-page".*?(</span>)', html)
+    temp_str = index_regular.search(html)
     if temp_str:
         index = re.search(r'\[\d*\]', temp_str.group())
         if index:
@@ -46,7 +47,8 @@ def find_pic_url(url):
 
     # 提取当前网页中每张图片的hash
     # 使用非贪婪匹配
-    pic_hash = re.findall(r'<span class="img-hash">(.*?=)</span>', html)
+    # pic_hash = re.findall(r'<span class="img-hash">(.*?=)</span>', html)
+    pic_hash = hash_regular.findall(html)
 
     # TODO:拼接图片网址, ooxx工程师挺坑啊，写了一堆代码，其实都是糊弄人的。
     # 网址就是：base64_decode(d)，d就是pic_hash
@@ -67,7 +69,8 @@ def find_pic_url(url):
 
 
 def get_pic_name(pic_url):
-    name = re.findall(r'\/(\w+\.jpg)', pic_url)
+    # name = re.findall(r'\/(\w+\.jpg)', pic_url)
+    name = name_regular.findall(pic_url)
     print(name)
     return name[0]
 
@@ -86,6 +89,10 @@ def save_pic(folder, pic, name):
     with open(name, 'wb') as f:
         f.write(pic)
 
+
+index_regular = re.compile(r'class="current-comment-page".*?(</span>)')
+hash_regular = re.compile(r'<span class="img-hash">(.*?=)</span>')
+name_regular = re.compile(r'\/(\w+\.jpg)')
 
 count = 5
 home_page = url_open(url).decode('utf-8')
