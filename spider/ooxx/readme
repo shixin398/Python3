@@ -1,0 +1,16 @@
+#readme
+
+相关模块用到：urllib.request urllib.parse re os
+其中re模块需要注意match search findall区别
+os模块用到函数：getcwd path chdir mkdir
+
+爬ooxx网站妹子图关键点有两个：一、正则表达式找到有用信息；二、处理ooxx的防爬处理
+正则表达式re模块：
+match：从开头匹配，如果开头没有则为NONE
+search和findall区别是：search找到第一个匹配之后就停止了；findall则找到所以匹配项
+findall使用上还需要注意：()的分组作用：1个()则是只返回()中的匹配项，还有两个三个等情况（参考：https://www.cnblogs.com/one-lightyear/p/6814833.html）
+
+处理ooxx防爬
+read ooxx网页内容之后，可以看到是没有相关图片地址的（http://wx2.sinaimg.cn/mw600/0076BSS5ly1g1h9m6z5cjj30ro0zk45g.jpg）
+被防爬处理了，对应python抓到的网页中img信息，需要在网页中查找相关函数实现，转化成python实现；
+而ooxx的防爬则很简单，代码写了一堆，其实都是障眼法。只需要对python抓到的图片对应的hash值反编码，然后转换成字符串就可以了（参考：https://www.cnblogs.com/sjfeng1987/p/9221920.html）。

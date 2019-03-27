@@ -87,5 +87,5 @@ while page_index > 0:
     for each in pic_list:
         pic = url_open(each)
         name = get_pic_name(each)
-        save_pic('xxoo', pic, name)
+        save_pic('ugly', pic, name)
     page_index = page_index - 1

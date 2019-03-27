@@ -9,6 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ooxx$real_xxoo.coverage" NAME="real_xxoo Coverage Results" MODIFIED="1553676473368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ooxx$ooxx.coverage" NAME="ooxx Coverage Results" MODIFIED="1553664561589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ooxx$regular.coverage" NAME="regular Coverage Results" MODIFIED="1553592790602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -24,22 +25,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="5" />
+          <entry key="log" value="1" />
+          <entry key="py" value="8" />
+          <entry key="readme" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="5" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3141" />
+          <entry key="py" value="4148" />
+          <entry key="readme" value="546" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3137" />
+          <entry key="PLAIN_TEXT" value="546" />
+          <entry key="Python" value="4144" />
           <entry key="RegExp" value="4" />
         </counts>
       </usages-collector>
@@ -47,34 +53,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ooxx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-828">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="433">
+              <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
               <folding>
                 <element signature="e#325#346#0" expanded="true" />
-                <marker date="1553660416222" expanded="true" signature="835:1875" ph="..." />
-                <marker date="1553660416222" expanded="true" signature="1903:2229" ph="..." />
+                <marker date="1553669767150" expanded="true" signature="835:1875" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/ProgramFile/Anaconda3/Lib/re.py">
+        <entry file="file://$PROJECT_DIR$/real_xxoo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="214" column="4" selection-start-line="214" selection-start-column="4" selection-end-line="214" selection-end-column="4" />
+            <state relative-caret-position="161">
+              <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+              <folding>
+                <element signature="e#240#261#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regularExpression.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="57" column="51" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="51" />
+            <state relative-caret-position="345">
+              <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -98,6 +106,9 @@
       <find>current-comment-page</find>
       <find>jandan_load_img</find>
       <find>jpg</find>
+      <find>img src=&quot;</find>
+      <find>img-hash</find>
+      <find>Ly93eDIuc2luYWltZy5jbi9tdzYwMC8wMDc2QlNTNWx5MWcxaGJpNGRtb2NqMzBudzB6dWd1bC5qcGc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,7 +118,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/regularExpression.py" />
+        <option value="$PROJECT_DIR$/real_xxo.py" />
         <option value="$PROJECT_DIR$/ooxx.py" />
+        <option value="$PROJECT_DIR$/real_xxoo.py" />
+        <option value="$PROJECT_DIR$/readme" />
       </list>
     </option>
   </component>
@@ -162,7 +176,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/regularExpression.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/real_xxoo.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -179,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ooxx">
+  <component name="RunManager" selected="Python.real_xxoo">
     <configuration name="ooxx" type="PythonConfigurationType" factoryName="Python">
       <module name="ooxx" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,6 +208,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ooxx.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="real_xxoo" type="PythonConfigurationType" factoryName="Python">
+      <module name="ooxx" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\ProgramFile\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/real_xxoo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,6 +262,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.ooxx" />
+      <item itemvalue="Python.real_xxoo" />
       <item itemvalue="Python.regular" />
     </list>
   </component>
@@ -297,6 +334,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/real_xxo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#280#310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://D:/ProgramFile/Anaconda3/Lib/re.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -306,13 +356,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ooxx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-828">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="433">
+          <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
           <folding>
             <element signature="e#325#346#0" expanded="true" />
-            <marker date="1553660416222" expanded="true" signature="835:1875" ph="..." />
-            <marker date="1553660416222" expanded="true" signature="1903:2229" ph="..." />
+            <marker date="1553669767150" expanded="true" signature="835:1875" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xxoo/readme">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/real_xxoo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+          <folding>
+            <element signature="e#240#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
         </state>
       </provider>
     </entry>
